@@ -1,4 +1,4 @@
-module sclk_gen #(parameter CLK_DIV = 4)(   // CLK_DIV must be >= 2
+module sclk_gen #(parameter CLK_DIV = 10)(   // CLK_DIV must be >= 2
     input      clk,
     input      reset_n,
     input      enable,        // high while bits are being clocked
